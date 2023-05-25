@@ -7,9 +7,14 @@
 
     /*background: url('https://prodtest.mbsbooks.com/static-test/vbm/provider_imgs/0-og.jpg') no-repeat;*/
     background: url('../img/istock_000015493762medium.jpg') no-repeat;
-    -webkit-background-size: 100% 100%;
-            background-size: 100% 100%;
+    -webkit-background-size: cover;
+            background-size: cover;
 }
+
+img {
+    object-fit: cover;
+}
+
 .navbar-brand {
     margin-left: 7.3%;
 }
